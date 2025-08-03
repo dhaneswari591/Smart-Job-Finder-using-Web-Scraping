@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Results</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h2>Matching Jobs</h2>
+  {% if matches %}
+    <ul>
+      {% for job in matches %}
+        <li>
+          <strong>{{ job.title }}</strong> at {{ job.company }}<br>
+          Location: {{ job.location }}<br>
+          Salary: {{ job.salary }}<br>
+          Skills: {{ job.skills }}<br>
+          <a href="{{ job.url }}" target="_blank">View Job</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No matching jobs found.</p>
+  {% endif %}
+</body>
+</html>
