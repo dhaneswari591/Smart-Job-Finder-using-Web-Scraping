@@ -26,10 +26,6 @@ job-alert-system/
 ├── requirements.txt
 ```
 
-## 📸 Screenshots
-
-*(Add screenshots of your web form and job results page)*
-
 ## 🔧 Setup Instructions
 
 ### 1. Clone the repo
@@ -88,6 +84,6 @@ from_password = 'your_app_password'
 
 ## 🧑‍💻 Author
 
-**Chitti**
-Final Year CSE Student | Data Science & Web Enthusiast
-[GitHub](https://github.com/your-username) | [LinkedIn](https://www.linkedin.com/in/your-link)
+**Dhaneswari Jogi**
+Fresher, CSE Student | Data Analyst & Web Enthusiast
+[GitHub](https://github.com/dhaneswari591) | [LinkedIn](https://www.linkedin.com/in/dhaneswari91)
